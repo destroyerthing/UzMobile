@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+
+    android:layout_height="wrap_content"
+
+
+    android:orientation="vertical"
+    android:padding="10dp">
+
+
+    <TextView
+
+        android:id="@+id/txt_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_marginStart="37dp"
+
+        android:fontFamily="@font/regular_sf"
+        android:gravity="left"
+        android:paddingStart="?android:attr/expandableListPreferredItemIndicatorLeft"
+        android:paddingEnd="10dp"
+
+        android:text="Balans"
+
+        android:textColor="#2E2E2E"
+        android:textSize="17sp" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/regular_sf"
+        android:gravity="left"
+        android:paddingStart="?android:attr/expandableListPreferredItemPaddingLeft"
+        android:paddingEnd="10dp"
+
+        android:text="Agar abonentda ADSL texnologiyasidan foydalangan holda IPTV xizmati mavjud bo'lsa, tarif rejasida ko'rsatilgan tezlikni ta'minlash uchun texnik imkoniyat UZTELECOM savdo idorasiga yozma ariza bilan belgilanadi"
+        android:textColor="#8C8A8A"
+        android:textSize="12sp" />
+</LinearLayout>
+
+
+
+
